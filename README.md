@@ -1,4 +1,5 @@
-🛠️ RISC-V RTL Workshop
+* **🛠️ RISC-V RTL Workshop**
+
 Welcome to the RTL Workshop!
 This is a hands-on learning series focused on Verilog RTL design, simulation, synthesis, and digital circuit optimization. This repository is structured into multiple days, each featuring practical labs, code examples, and in-depth explanations.
 

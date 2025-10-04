@@ -1,53 +1,57 @@
-BabySoC – Fundamentals & Functional Modelling
-📖 Overview
+🛠️ RISC-V RTL Workshop
+Welcome to the RTL Workshop!
+This is a hands-on learning series focused on Verilog RTL design, simulation, synthesis, and digital circuit optimization. This repository is structured into multiple days, each featuring practical labs, code examples, and in-depth explanations.
 
-This project is part of Week 2 of the BabySoC learning journey. The objective is to develop a clear understanding of System-on-Chip (SoC) fundamentals and to practice functional modelling using simulation tools.
+📘 About This Workshop
+This workshop is designed for students, hobbyists, and engineers aiming to master the practical aspects of modern digital design flow. You will learn about:
 
-BabySoC serves as a simplified SoC model designed to help learners bridge the gap between theoretical knowledge and practical design flow, preparing them for deeper stages such as RTL design and physical implementation.
+Verilog RTL Design and Simulation.
 
-🎯 Objectives
+Using Icarus Verilog (iverilog) and GTKWave for simulation and waveform analysis.
 
-Understand the fundamentals of SoC design.
+Logic synthesis utilizing Yosys and the SKY130 open-source PDK.
 
-Explore the key components of a typical SoC (CPU, memory, peripherals, interconnect).
+Key digital design concepts: Testbenches, timing libraries, D flip-flop coding styles, and various optimization techniques.
 
-Learn why BabySoC is used as a learning platform.
+🛠️ Prerequisites
+To ensure a smooth learning experience, please make sure you have:
 
-Apply functional modelling concepts before advancing to RTL and physical design stages.
+Basic understanding of digital logic (e.g., gates, flip-flops, multiplexers).
 
-🧩 Key Concepts
-What is a System-on-Chip (SoC)?
+Familiarity with Linux shell commands.
 
-A System-on-Chip (SoC) integrates multiple components — such as a CPU, memory, peripherals, and interconnects — into a single chip, providing a complete computing system.
+A Linux environment (or WSL on Windows/macOS).
 
-Components of a Typical SoC
+Installed tools: git, iverilog, gtkwave, yosys, and a text editor (VS Code recommended).
 
-CPU (Processor Core): Executes instructions.
 
-Memory: Stores both code and data.
+### 📂 Workshop Structure
 
-Peripherals: Interfaces for input/output operations (e.g., UART, timers).
+The workshop is organized by day, with each day having a dedicated folder and `README` file detailing labs and concepts.
 
-Interconnect (Bus/NoC): Enables communication among system components.
+| Day | Focus Area | Key Concepts/Topics |
+| :--- | :--- | :--- |
+| **Day 1** | Introduction to RTL Design & Synthesis | Verilog RTL Design, Introduction to Logic Synthesis |
+| **Day 2** | Timing, Synthesis & Flip-Flop Coding | **Timing Libraries**, Synthesis Approaches, **Efficient Flip-Flop Coding** Styles |
+| **Day 3** | Combinational & Sequential Optimization | Techniques for optimizing both combinational and sequential logic circuits |
+| **Day 4** | Simulation Mismatch & Data Flow | **Gate-Level Simulation (GLS)**, **Blocking vs. Non-Blocking** in Verilog, Synthesis-Simulation Mismatch |
+| **Day 5** | Advanced Optimization in Synthesis | Further and advanced techniques for optimizing designs during the synthesis stage |
 
-Why BabySoC?
+Export to Sheets
+Each day's README includes:
 
-BabySoC is a simplified educational SoC model. It reduces complexity so that learners can focus on the core principles of SoC design before moving on to advanced stages.
+Clear explanations of the day’s concepts.
 
-Role of Functional Modelling
+Step-by-step practical labs with code and screenshots.
 
-Functional modelling allows early simulation and verification of system behavior. It ensures correctness before progressing to RTL design and physical implementation.
+Tips and best practices for RTL design.
 
-📝 Deliverables
+📜 License
+[License information placeholder - e.g., MIT License]
 
-A 1–2 page write-up summarizing:
+🙏 Acknowledgements
+Special thanks to:
 
-Fundamentals of SoC design.
+Kunal Ghosh
 
-How BabySoC supports the learning process.
-
-Document and submit your findings in the GitHub repository.
-
-🔗 References
-
-Fundamentals of SoC Design – Study Notes
+Open-source tool providers like Yosys and the Sky130 PDK.
